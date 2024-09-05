@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    background-color: #222831;
+    color: #EEEEEE;
+    font-family: 'Lato', sans-serif;
+}
+
+ul.breadcrumb {
+    padding: 10px 8px; 
+    margin: 0; 
+    list-style: none;
+    background-color: #393E46;
+    border-radius: 10px;
+    width: 25vh;
+    margin-left: 10vh; /* Adjust margin-right to move it further to the right */
+}
+  
+ul.breadcrumb li {
+    display: inline;
+    font-size: 0.875rem;
+    color: #EEEEEE;
+    margin-right: 5px; /* Add margin between breadcrumb items */
+  }
+  
+  ul.breadcrumb li+li:before {
+    padding: 0 4px; /* Adjust padding to make the separator shorter */
+    color: #EEEEEE;
+    content: "/\00a0";
+  }
+  
+  ul.breadcrumb li a {
+    color: #00ADB5;
+    text-decoration: none;
+  }
+  
+  ul.breadcrumb li a:hover {
+    color: #007D85;
+    text-decoration: underline;
+  }
+  
+
+.search-bar {
+    background-color: #393E46;
+    border: 1px solid #393E46;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.search-bar input[type="search"] {
+    border: none;
+    background-color: transparent;
+    color: #EEEEEE;
+    padding: 0.375rem 0.75rem;
+}
+
+.search-bar button {
+    border-color: #00ADB5;
+    color: #00ADB5;
+}
+
+.search-bar button:hover {
+    background-color: #00ADB5;
+    color: #222831;
+}
+
+.search-bar input[type="search"]::placeholder {
+    color: #EEEEEE;
+}
+
+
+.details-container {
+    background-color: #393E46;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.details-container i {
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+.details-container img {
+    width: 100%;
+    height: auto; 
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.button-container button {
+    margin-right: 10px;
+}
+
+.description {
+    margin-top: 15px;
+}
+
+.btn-primary {
+    background-color: #00ADB5;
+    border-color: #00ADB5;
+    color: #EEEEEE;
+}
+
+.btn-primary:hover {
+    background-color: #008381;
+    border-color: #008381;
+}
+
+.btn-secondary:hover {
+    background-color: #4e555b;
+    border-color: #4e555b; 
+}
+
+.btn-outline-light:hover {
+    background-color: #00ADB5;
+    border-color: #00ADB5;
+    color: #222831;
+}
+
+.highlight {
+    background-color: #00ADB5;
+}

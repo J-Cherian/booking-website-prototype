@@ -1,0 +1,27 @@
+body {
+    background-color: #222831;
+    color: #EEEEEE;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    color: #00ADB5;
+}
+
+.details-container  img {
+    width: 70vh; /* Set width to 70% of the viewport height */
+    height: auto;
+    margin-bottom: 20px; /* Add some margin between images */
+}
+
+.btn-primary {
+    background-color: #00ADB5;
+    border-color: #00ADB5;
+    color: #EEEEEE; 
+}
+
+.btn-primary:hover {
+    background-color: #008381;
+    border-color: #008381;
+}
+

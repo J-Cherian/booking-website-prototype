@@ -1,0 +1,123 @@
+body {
+background-color: #222831;
+color: #eeeeee;
+font-family: Arial, sans-serif;
+}
+
+.container {
+margin-top: 50px;
+}
+
+ul.breadcrumb {
+padding: 10px 8px; 
+margin: 0; 
+list-style: none;
+background-color: #393E46;
+border-radius: 10px;
+width: 74vh;
+margin-left: 10vh; 
+}
+
+ul.breadcrumb li {
+display: inline;
+font-size: 0.875rem;
+color: #EEEEEE;
+margin-right: 5px; 
+}
+
+ul.breadcrumb li+li:before {
+padding: 0 4px; 
+color: #EEEEEE;
+content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+color: #00ADB5;
+text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+color: #007D85;
+text-decoration: underline;
+}
+
+i {
+cursor: pointer;
+margin-left: 80vh;
+}
+
+.border-container {
+border-radius: 10px;
+padding: 20px;
+background-color: #222831;
+}
+
+.border-outline {
+border-radius: 8px;
+padding: 20px;
+background-color: #393e46;
+}
+
+.event-container {
+margin-bottom: 20px;
+}
+
+.event-details {
+background-color: #393e46;
+padding: 15px;
+border-radius: 8px;
+margin-top: 15px; /* Add margin-top to lower the event details */
+margin-bottom: 15px; /* Add margin-bottom for consistency */
+}
+
+h1 {
+color: #00adb5;
+text-align: center;
+}
+
+img {
+display: block;
+margin: 15px auto 0 auto; /* Adjust margin-bottom to lower the image */
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+width: 100%;
+max-width: 400px;
+height: auto;
+border-radius: 8px;
+}
+
+.btn {
+padding: 10px 20px;
+border-radius: 5px;
+text-decoration: none;
+display: inline-block;
+margin-right: 10px;
+transition: all 0.3s ease;
+}
+
+.btn-primary {
+background-color: #00adb5;
+border-color: #00adb5;
+color: #eeeeee;
+}
+
+.btn-primary:hover {
+background-color: #008489; /* Darker shade of primary color */
+border-color: #008489; /* Darker shade of primary color */
+}
+
+.btn-secondary {
+background-color: #d32f2f; /* Bright red */
+border-color: #d32f2f; /* Bright red */
+color: #eeeeee; /* Dark gray */
+}
+
+.btn-secondary:hover {
+background-color: #9b1c31; /* Darker shade of secondary color */
+border-color: #9b1c31; /* Darker shade of secondary color */
+}
+
+
+.button-container {
+text-align: center;
+}
+

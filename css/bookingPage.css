@@ -1,0 +1,110 @@
+body {
+    background-color: #222831;
+    color: #eeeeee;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+ul.breadcrumb {
+    padding: 10px 8px; 
+    margin: 0; 
+    list-style: none;
+    background-color: #393E46;
+    border-radius: 10px;
+    width: 36vh;
+    margin-left: 10vh; 
+}
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 0.875rem;
+    color: #EEEEEE;
+    margin-right: 5px; 
+}
+
+ul.breadcrumb li+li:before {
+    padding: 0 4px; 
+    color: #EEEEEE;
+    content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+    color: #00ADB5;
+    text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+    color: #007D85;
+    text-decoration: underline;
+}
+
+h1 {
+    color: #00adb5;
+}
+
+img {
+    display: block;
+    margin: 15px auto; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    max-width: 100%; 
+    height: auto; 
+}
+
+i {
+    cursor: pointer;
+    margin-left: 80vh;
+}
+
+.booking-container {
+    background-color: #393e46;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+.form-label {
+    color: #eeeeee;
+}
+
+.form-control {
+    background-color: #222831;
+    color: #eeeeee;
+    border-color: #00adb5;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+    width: 20vh;
+}
+
+.btn-primary {
+    background-color: #00adb5;
+    border-color: #00adb5;
+    color: #eeeeee;
+}
+
+.btn-primary:hover {
+    background-color: #008489;
+    border-color: #008489;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    border-color: #00adb5;
+    color: #00adb5;
+    
+}
+
+.btn-secondary:hover {
+    background-color: #00adb5;
+    border-color: #00adb5;
+    color: #222831;
+}
+

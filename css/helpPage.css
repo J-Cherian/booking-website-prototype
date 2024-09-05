@@ -1,0 +1,48 @@
+/* Custom CSS for FAQ page */
+body {
+    background-color: #222831;
+    color: #EEEEEE;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    color: #00ADB5;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.accordion-button {
+    background-color: #393E46;
+    color: #EEEEEE;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #00ADB5;
+    color: #EEEEEE;
+}
+
+.accordion-body {
+    background-color: #393E46;
+    color: #EEEEEE;
+}
+
+.accordion-body a {
+    color: #00ADB5;
+}
+
+.accordion-body a:hover {
+    color: #007D85;
+}
+
+i {
+    cursor: pointer;
+    margin-left: 120vh;
+}

@@ -1,0 +1,165 @@
+/* Body */
+body {
+    background-color: #222831;
+    color: #EEEEEE;
+    font-family: Arial, sans-serif;
+}
+
+/* Container */
+.container {
+    margin-top: 50px;
+}
+
+.container h1 {
+    text-align: center;
+    color: #00ADB5; /* Adjusting heading color */
+}
+
+/* Profile Card */
+.profile-card {
+    background-color: #393E46; /* Darker background */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.profile-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 4px solid #00ADB5; /* Adding border to profile picture */
+}
+
+.profile-card h2 {
+    color: #00ADB5;
+    margin-bottom: 10px;
+}
+
+.profile-card p {
+    color: #EEEEEE;
+    margin-bottom: 20px;
+}
+
+.profile-card .btn-primary {
+    background-color: #00ADB5;
+    border-color: #00ADB5;
+}
+
+.profile-card .btn-primary:hover {
+    background-color: #007D85;
+    border-color: #007D85;
+}
+
+/* Reset Password Modal */
+#resetPasswordModal .modal-dialog {
+    max-width: 400px; /* Adjust the max-width as needed */
+}
+
+#resetPasswordModal .modal-content {
+    background-color: #393E46; /* Dark background color */
+    color: #EEEEEE;
+}
+
+#resetPasswordModal .modal-header {
+    border-bottom: none; /* Remove border from header */
+}
+
+#resetPasswordModal .modal-title {
+    color: #00ADB5; /* Title color */
+}
+
+#resetPasswordModal .modal-body {
+    padding: 20px;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+}
+
+#resetPasswordModal .form-label {
+    color: #EEEEEE; /* Label color */
+}
+
+#resetPasswordModal .form-control {
+    background-color: #222831; /* Input background color */
+    color: #EEEEEE; /* Input text color */
+    border-color: #00ADB5; /* Input border color */
+}
+
+#resetPasswordModal .form-control:focus {
+    background-color: #393E46; /* Input background color on focus */
+}
+
+#resetPasswordModal .btn-primary {
+    background-color: #00ADB5;
+    border-color: #00ADB5;
+    color: #EEEEEE;
+    width: 21vh;
+
+}
+
+#resetPasswordModal .btn-primary:hover {
+    background-color: #007D85;
+    border-color: #007D85;
+}
+
+/* Reset Password Modal */
+#resetPasswordModal .btn-secondary {
+    color: #fff;
+    background-color: #ff0000; /* Red color */
+    border: none;
+    margin: 10px;
+    width: 21vh;
+}
+
+#resetPasswordModal .btn-secondary:hover {
+    background-color: #ff3333ea; /* Lighter red color on hover */
+}
+
+#resetPasswordModal .btn-primary {
+    margin-right: 10px; /* Add margin to the right to separate from close button */
+}
+
+/* Calendar Container */
+#calendar-container {
+    width: 80%; /* Adjust width as needed */
+    max-width: 600px; /* Set a maximum width if desired */
+    margin: 30px auto; /* Center the calendar horizontally */
+}
+
+/* Calendar */
+#calendar {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #222831; /* Darker background */
+    width: 100%; /* Ensure it fills its container */
+    height: auto; /* Allow height to adjust based on content */
+}
+
+/* Ensure all days are visible */
+.fc-daygrid-day {
+    width: calc(100% / 7); /* Divide the width equally among 7 days */
+}
+
+/* Changing the color used to highlight booked events */
+.fc-event-main {
+    background-color: #00ADB5; /* Green color */
+    color: #EEEEEE; /* Text color */
+    border-color: #00ADB5; /* Border color */
+}
+
+.fc-event-main:hover {
+    background-color: #007D85; /* Darker green color on hover */
+    border-color: #007D85; /* Darker border color on hover */
+}
+
+/* Change shading of all date cells */
+.fc-day {
+    background-color: #222831 !important;
+}
+
+/* Change text color of all dates */
+.fc-day a {
+    color: #00ADB5 !important;
+}
+

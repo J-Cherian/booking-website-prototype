@@ -1,0 +1,104 @@
+body {
+    background-color: #222831;
+    color: #EEEEEE;
+    font-family: 'Lato', sans-serif;
+}
+
+ul.breadcrumb {
+    padding: 10px 8px; 
+    margin: 0; 
+    list-style: none;
+    background-color: #393E46;
+    border-radius: 10px;
+    width: 40vh;
+    margin-left: 5vh; /* Adjust margin-right to move it further to the right */
+}
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 0.875rem;
+    color: #EEEEEE;
+    margin-right: 5px; /* Add margin between breadcrumb items */
+}
+
+ul.breadcrumb li+li:before {
+    padding: 0 4px; /* Adjust padding to make the separator shorter */
+    color: #EEEEEE;
+    content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+    color: #00ADB5;
+    text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+    color: #007D85;
+    text-decoration: underline;
+}
+
+.row i {
+    cursor: pointer;
+    margin-left: 150vh;
+}   
+
+.event-image {
+    border-radius: 5px;
+    width: 100%;
+    height: 454px;
+    object-fit: cover; /* Maintain aspect ratio while covering the container */
+}
+
+.details-container {
+    background-color: #393E46;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.event-container {
+    border: none; /* Remove the border */
+    border-radius: 10px;
+    background-color: #393E46; /* Fill color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add shadow */
+    overflow-y: auto; /* Add vertical scrollbar */
+    padding-bottom: 20px; /* Add space at the bottom */
+
+}
+
+.description-container {
+    text-align: center;
+}
+
+
+.description {
+    margin-top: 15px;
+}
+
+.btn-primary {
+    background-color: #00ADB5;
+    border-color: #00ADB5;
+    color: #EEEEEE;
+}
+
+.btn-primary:hover {
+    background-color: #008381;
+    border-color: #008381;
+}
+
+.btn-outline-light:hover {
+    background-color: #00ADB5;
+    border-color: #00ADB5;
+    color: #222831;
+}
+
+#eventMap {
+    width: 100%;
+    height: 400px; /* Adjust the height as needed */
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.col-md-6:last-child {
+    margin-top: 20px; /* Adjust the margin-top value to move the image lower */
+}
